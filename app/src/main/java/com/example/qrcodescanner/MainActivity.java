@@ -26,7 +26,7 @@ import com.google.zxing.integration.android.IntentResult;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnScan;
-    public static final int REQUEST_CODE = 98;
+    private static final int REQUEST_CODE = 98;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
